@@ -1,0 +1,99 @@
+{
+    "characters": [
+        
+      {
+        "element": "Pyro",
+        "name": "Amber",
+        "weapon": "Arc",
+        "zone": "Monstadt",
+        "picture": "./img/charact/pyro/amber.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Bennett",
+        "weapon": "Epee",
+        "zone": "Monstadt",
+        "picture": "./img/charact/pyro/bennett.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Diluc",
+        "weapon": "Claymore",
+        "zone": "Monstadt",
+        "picture": "./img/charact/pyro/diluc.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Klee",
+        "weapon": "Tome",
+        "zone": "Monstadt",
+        "picture": "./img/charact/pyro/klee.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Hu tao",
+        "weapon": "Haste",
+        "zone": "Liyue",
+        "picture": "./img/charact/pyro/hutao.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Xiangling",
+        "weapon": "Haste",
+        "zone": "Liyue",
+        "picture": "./img/charact/pyro/xiangling.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Xinyan",
+        "weapon": "Claymore",
+        "zone": "Liyue",
+        "picture": "./img/charact/pyro/xinyan.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Yanfei",
+        "weapon": "Tome",
+        "zone": "Liyue",
+        "picture": "./img/charact/pyro/yanfei.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Thoma",
+        "weapon": "Haste",
+        "zone": "Inazuma",
+        "picture": "./img/charact/pyro/thoma.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Yoimiya",
+        "weapon": "Arc",
+        "zone": "Inazuma",
+        "picture": "./img/charact/pyro/yoimiya.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Dehya",
+        "weapon": "Claymore",
+        "zone": "Sumeru",
+        "picture": "./img/charact/pyro/dehya.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Arlecchino",
+        "weapon": "Haste",
+        "zone": "Fontaine",
+        "picture": "./img/charact/pyro/arlecchino.png"
+      },
+      {
+        "element": "Pyro",
+        "name": "Lyney",
+        "weapon": "Arc",
+        "zone": "Fontaine",
+        "picture": "./img/charact/pyro/lyney.png"
+      }
+      
+      
+    ]
+  }
+  
