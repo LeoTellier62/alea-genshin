@@ -22,6 +22,8 @@ async function loadData() {
         charac3 = characBase;
         charac4 = characBase;
         console.log("Données des personnages chargées :", characBase);
+
+        afficherData(charac1);
     
     } catch (error) {
         console.error("Erreur lors du chargement des personnages :", error);
@@ -38,7 +40,7 @@ function afficherCharact(charac, laDiv) {
     }
     
     laDiv.innerHTML = `
-        <div class="user">
+        <div class="${charac.element}">
             <div class="user-photo">
             <img src="${charac.picture}" alt="${charac.name}" />
             </div>
@@ -48,6 +50,27 @@ function afficherCharact(charac, laDiv) {
             <div class="user-elem">${charac.element}</div>
         </div>
         `;
+}
+
+function afficherData(data) {
+    
+    data.characters.forEach(user => {
+        affichList.innerHTML += `
+        <div class="user-card ${user.element}">
+            <div class="user-photo">
+                <img src="${user.picture}" alt="${user.name}" />
+                <div class="user-nom">${user.name}</div>
+            </div>
+            <div class="user-info">
+                <div class="user-zone">${user.zone}</div>
+                <div class="user-weapon">${user.weapon}</div>
+                <div class="user-elem">${user.element}</div>
+            </div>
+        </div>
+
+        `;
+    });
+    
 }
 
 function getRandomCharacter() {

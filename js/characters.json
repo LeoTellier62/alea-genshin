@@ -91,8 +91,196 @@
         "weapon": "Arc",
         "zone": "Fontaine",
         "picture": "./img/charact/pyro/lyney.png"
+      },
+
+
+
+
+
+
+
+      {
+        "element": "Hydro",
+        "name": "Kamisato Ayato",
+        "weapon": "Epee",
+        "zone": "Inazuma",
+        "picture": "./img/charact/hydro/ayato.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Barbara",
+        "weapon": "Tome",
+        "zone": "Monstadt",
+        "picture": "./img/charact/hydro/barbara.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Candace",
+        "weapon": "Haste",
+        "zone": "Sumeru",
+        "picture": "./img/charact/hydro/candace.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Furina",
+        "weapon": "Epee",
+        "zone": "Fontaine",
+        "picture": "./img/charact/hydro/furina.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Sangonomiya Kokomi",
+        "weapon": "Tome",
+        "zone": "Inazuma",
+        "picture": "./img/charact/hydro/kokomi.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Mona",
+        "weapon": "Tome",
+        "zone": "Monstadt",
+        "picture": "./img/charact/hydro/mona.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Mualani",
+        "weapon": "Tome",
+        "zone": "Natlan",
+        "picture": "./img/charact/hydro/mualani.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Neuvillette",
+        "weapon": "Tome",
+        "zone": "Fontaine",
+        "picture": "./img/charact/hydro/neuvillette.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Nilou",
+        "weapon": "Epee",
+        "zone": "Sumeru",
+        "picture": "./img/charact/hydro/nilou.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Sigewinne",
+        "weapon": "Arc",
+        "zone": "Fontaine",
+        "picture": "./img/charact/hydro/sigewinne.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Tartaglia",
+        "weapon": "Arc",
+        "zone": "Snezhnaya",
+        "picture": "./img/charact/hydro/tartaglia.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Xingqiu",
+        "weapon": "Epee",
+        "zone": "Liyue",
+        "picture": "./img/charact/hydro/xingqiu.png"
+      },
+      {
+        "element": "Hydro",
+        "name": "Yelan",
+        "weapon": "Arc",
+        "zone": "Liyue",
+        "picture": "./img/charact/hydro/yelan.png"
+      },
+
+
+
+
+
+
+
+      {
+        "element": "Anemo",
+        "name": "Chasca",
+        "weapon": "Arc",
+        "zone": "Natlan",
+        "picture": "./img/charact/anemo/chasca.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Faruzan",
+        "weapon": "Arc",
+        "zone": "Sumeru",
+        "picture": "./img/charact/anemo/faruzan.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Shikanoin Heizou",
+        "weapon": "Tome",
+        "zone": "Inazuma",
+        "picture": "./img/charact/anemo/heizou.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Jean",
+        "weapon": "Epee",
+        "zone": "Monstadt",
+        "picture": "./img/charact/anemo/jean.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Kaedehara Kazuha",
+        "weapon": "Epee",
+        "zone": "Inazuma",
+        "picture": "./img/charact/anemo/kazuha.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Lynette",
+        "weapon": "Epee",
+        "zone": "Fontaine",
+        "picture": "./img/charact/anemo/lynette.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Sayu",
+        "weapon": "Claymore",
+        "zone": "Inazuma",
+        "picture": "./img/charact/anemo/sayu.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Sucrose",
+        "weapon": "Tome",
+        "zone": "Monstadt",
+        "picture": "./img/charact/anemo/sucrose.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Venti",
+        "weapon": "Arc",
+        "zone": "Monstadt",
+        "picture": "./img/charact/anemo/venti.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Nomade",
+        "weapon": "Tome",
+        "zone": "Sumeru",
+        "picture": "./img/charact/anemo/wanderer.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Xianyun",
+        "weapon": "Tome",
+        "zone": "Liyue",
+        "picture": "./img/charact/anemo/xianyun.png"
+      },
+      {
+        "element": "Anemo",
+        "name": "Xiao",
+        "weapon": "Haste",
+        "zone": "Liyue",
+        "picture": "./img/charact/anemo/xiao.png"
       }
-      
       
     ]
   }
