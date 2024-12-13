@@ -1,0 +1,32 @@
+{
+    "characters": [
+        
+      {
+        "name": "Hypostase Anemo",
+        "zone": "Monstadt",
+        "picture": "./img/boss/monstadt/anemo_hypostasis.png"
+      },
+      {
+        "name": "Hypostase Cryo",
+        "zone": "Monstadt",
+        "picture": "./img/boss/monstadt/cryo_hypostasis.png"
+      },
+      {
+        "name": "Arbre Congelé",
+        "zone": "Monstadt",
+        "picture": "./img/boss/monstadt/cryo_regisvine.png"
+      },
+      {
+        "name": "Loup du Nord",
+        "zone": "Monstadt",
+        "picture": "./img/boss/monstadt/lupus.png"
+      },
+      {
+        "name": "Stormterror",
+        "zone": "Monstadt",
+        "picture": "./img/boss/monstadt/stormterror.png"
+      }
+      
+    ]
+  }
+  
