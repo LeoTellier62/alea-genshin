@@ -33,7 +33,7 @@ const img4P = "img/4P.png"
 // Charger le fichier JSON
 async function loadData() {
     try {
-        const responseChar = await fetch('/js/characters.json');
+        const responseChar = await fetch('./js/characters.json');
         characBase = await responseChar.json();
         charac1 = JSON.parse(JSON.stringify(characBase));
         charac2 = JSON.parse(JSON.stringify(characBase));
@@ -47,7 +47,7 @@ async function loadData() {
             img.src = item.picture; 
         });
 
-        const responseBoss = await fetch('/js/bosses.json');
+        const responseBoss = await fetch('./js/bosses.json');
         bossesBase = await responseBoss.json();
         bosses = bossesBase;
         
