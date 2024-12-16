@@ -261,30 +261,30 @@ main {
     font-size: 30px;
   }
 
-  #victoire {
+  #btn-victoire {
     box-shadow: 0 0 30px 5px green;
     border: 1px solid green;
   }
 
-  #victoire:hover {
+  #btn-victoire:hover {
     background-color: green;
   }
   
-  #defaite {
+  #btn-defaite {
     box-shadow: 0 0 30px 5px red;
     border: 1px solid red;
   }
 
-  #defaite:hover {
+  #btn-defaite:hover {
     background-color: red;
   }
 
-  #abandon {
+  #btn-abandon {
     box-shadow: 0 0 30px 5px purple;
     border: 1px solid purple;
   }
 
-  #abandon:hover {
+  #btn-abandon:hover {
     background-color: purple;
   }
 
@@ -390,27 +390,6 @@ table {
   text-align: center; 
 }
 
-.cellCharacs {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-}
-
-.cellBoss {
-  display: flex;
-  justify-content: center;
-}
-
-#tableau img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-
 th {
   font-weight: bold; /* Texte en gras */
 }
@@ -430,6 +409,53 @@ th:nth-child(3), td:nth-child(3) {
 th:nth-child(4), td:nth-child(4) {
   width: 10%; /* Dernière colonne à 10% */
 }
+
+.cellTour {
+  font-weight: bold;
+  font-size: 40px;
+}
+.cellCharacs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cellBoss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tableau img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Victoire {
+  box-shadow: 0 0 30px 5px green;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.Défaite {
+  box-shadow: 0 0 30px 5px red;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.Abandon {
+  box-shadow: 0 0 30px 5px purple;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 
 #refresh {
   width: 10%;

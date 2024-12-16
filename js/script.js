@@ -8,9 +8,9 @@ let charac4;
 let bosses;
 
 const btnPlay = document.getElementById("btn-play");
-const btnWin = document.getElementById("victoire");
-const btnLoo = document.getElementById("defaite");
-const btnAbd = document.getElementById("abandon");
+const btnWin = document.getElementById("btn-victoire");
+const btnLoo = document.getElementById("btn-defaite");
+const btnAbd = document.getElementById("btn-abandon");
 
 const persoA = document.getElementById('perso1');
 const persoB = document.getElementById('perso2');
@@ -190,26 +190,35 @@ function ajouterAuTableau(tour, characs, boss, resultat) {
     
     // Créer une nouvelle ligne
     const row = document.createElement("tr");
+    row.setAttribute("data-result", resultat.toLowerCase()); // Ajouter un attribut data-result pour filtrage
 
     // Ajouter le numéro du tour
     const cellTour = document.createElement("td");
-    cellTour.textContent = tour;
+    cellTour.innerHTML = `<div class="cellTour"> ${tour} </div>`;
     row.appendChild(cellTour);
 
     // Ajouter les 4 personnages
     const cellCharacs = document.createElement("td");
-    const allPics = characs.map(charac => `<img src="${charac.picture}" class="${charac.element}"/>`);
+    const imagesP = [img1P, img2P, img3P, img4P]; // Tableau des images spécifiques
+    const allPics = characs.map((charac, index) => `
+        <div class="image-container">
+            <img src="${imagesP[index]}" class="extra-img" alt="P${index + 1}" style="width: 40px; height: 40px; margin: 0 auto;" />
+            <img src="${charac.picture}" class="${charac.element}" title="${charac.name}" />
+        </div>
+    `).join("");
     cellCharacs.innerHTML = `<div class="cellCharacs"> ${allPics} </div>`;
     row.appendChild(cellCharacs);
 
     // Ajouter le boss
     const cellBoss = document.createElement("td");
-    cellBoss.innerHTML = `<div class="cellBoss"> <img src="${boss.picture}"/> </div>`;
+    cellBoss.innerHTML = `<div class="cellBoss">
+                            <img src="${boss.picture}" title="${boss.name}"/>
+                        </div>`;
     row.appendChild(cellBoss);
 
     // Ajouter le résultat
     const cellResultat = document.createElement("td");
-    cellResultat.textContent = resultat;
+    cellResultat.innerHTML = `<div class="${resultat}"> ${resultat} </div>`;
     row.appendChild(cellResultat);
 
     // Ajouter la ligne au tableau
@@ -263,6 +272,26 @@ document.getElementById('confirm-no').addEventListener('click', () => {
     const popup = document.getElementById('popup');
     popup.classList.remove('popup-visible');
 });
+
+// Fonction pour filtrer le tableau
+function filtrerTableau(type) {
+    const rows = document.querySelectorAll("#tableau tbody tr");
+
+    rows.forEach(row => {
+        const result = row.getAttribute("data-result"); // Récupérer l'attribut data-result
+        if (type === "all" || result === type) {
+            row.style.display = ""; // Afficher la ligne
+        } else {
+            row.style.display = "none"; // Masquer la ligne
+        }
+    });
+}
+
+// Ajout des écouteurs aux boutons
+document.getElementById("filter-all").addEventListener("click", () => filtrerTableau("all"));
+document.getElementById("filter-victories").addEventListener("click", () => filtrerTableau("victoire"));
+document.getElementById("filter-defeats").addEventListener("click", () => filtrerTableau("défaite"));
+document.getElementById("filter-abandons").addEventListener("click", () => filtrerTableau("abandon"));
 
 
 // Lancement initial
