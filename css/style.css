@@ -40,6 +40,9 @@
     isolation: isolate;
   }
 
+
+  
+/*============================================================================*/
 /*BODY*/
 body {
   display: flex;
@@ -55,13 +58,20 @@ body {
   background-repeat: no-repeat; 
 }
 
+/*============================================================================*/
 /*HEADER*/
 header {
   color: white;
   padding: 20px;
 }
 
+/*============================================================================*/
 /*MAIN*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
 
 #list-charac {
   display: flex;
@@ -69,6 +79,9 @@ header {
   flex-wrap: wrap;
 } 
 
+
+/*============================================================================*/
+/*Personnages*/
 #player {
   display: flex; 
   flex-wrap: wrap; 
@@ -77,60 +90,48 @@ header {
   flex-direction: column;
 }
 
-.duo {
-  display: flex;
-}
-  
-#big-vs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#big-vs img {
-  width: 200px;
-  height: 200px;
-}
-
-#btn-play {
-  background-color: #c8a079;
-  border-radius: 20px;
-  box-shadow: 0 0 20px 10px #c8a079;
-  border: none;
-  cursor: pointer;
-}
 
 .player-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px 0px 10px 0px;
+  width: 300px;
+  height: 400px;
 }
 
-/*Personnages*/
-  .user-card {
+.duo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*============================================================================*/
+/*Card de perso*/
+.user-card {
     position: relative;
     height: 100%;
     width: 80%;
     overflow: hidden;
     border-radius: 150px;
-  }
+}
   
-  .user-photo {
-    position: relative; /* Sert de référence pour les positions absolues */
+.user-photo {
+    position: relative; 
     width: 100%;
     height: 100%;
-    overflow: visible; /* Permet aux enfants de dépasser les limites de la div */
-  }
+    overflow: visible; 
+}
   
-  .user-photo img {
+.user-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    pointer-events: none; /* Empêche le clic ou le glissement de l'image principale */
-  }
+    pointer-events: none; 
+}
   
-  .user-photo .user-nom {
+.user-photo .user-nom {
     position: absolute;
     bottom: 20%;
     left: 50%;
@@ -141,9 +142,9 @@ header {
     font-size: 30px;
     text-align: center;
     z-index: 2;
-  }
+}
   
-  .user-photo .extra-img {
+.user-photo .extra-img {
     position: absolute;
     bottom: -1px; 
     left: 50%;
@@ -151,9 +152,9 @@ header {
     width: 80px; 
     height: auto;
     z-index: 3; 
-  }
+}
   
-  .user-info {
+.user-info {
     position: absolute;
     top: 0;
     left: 0;
@@ -168,32 +169,130 @@ header {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-  }
+}
   
-  .user-card:hover .user-photo img,
-  .user-card:hover .user-photo .user-nom {
+.user-card:hover .user-photo img,
+.user-card:hover .user-photo .user-nom {
     opacity: 0.3;
     transition: opacity 0.3s ease;
-  }
+}
   
-  .user-card:hover .user-info {
+.user-card:hover .user-info {
     opacity: 1;
     visibility: visible;
+}
+
+/*============================================================================*/
+  /*BOUTON VS*/
+  #big-vs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+  }
+  
+  #big-vs img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #btn-play {
+    background-color: #000000ad;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px #000000ad;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  #btn-play:hover {
+    background-color: #000000ad;
+    box-shadow: 0 0 20px 10px #999999ad;
+  }
+  
+  #btn-play:disabled {
+    background-color: #999999ad;;
+    cursor: not-allowed;
+  }
+  
+  #btn-play:disabled:hover {
+    box-shadow: 0 0 20px 10px #000000ad;
   }
 
+  /*============================================================================*/
+  /*BOSS*/
+  #boss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     width: 600px;
+     min-height: 600px;
+  }
+  
   #boss-card {
-    margin-left: 50px;
     height: 500px;
-    max-width: 500px;
     width: auto;
-    background-color: #c8a079;
+    background-color: #000000ad;
+    box-shadow: 0 0 20px 10px #000000ad;
   }
 
+  #boss-card .user-nom{
+    background-color: #000000ad;
+    box-shadow: 0 0 20px 10px #000000ad;
+  }
 
+  #boss-card .user-photo {
+    width: 500px;
+  }
+
+  /*============================================================================*/
+  /*Boutons sous Boss*/
+  #container-btn button {
+    background-color: #000000ad;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 10px 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+
+  #victoire {
+    box-shadow: 0 0 30px 5px green;
+    border: 1px solid green;
+  }
+
+  #victoire:hover {
+    background-color: green;
+  }
+  
+  #defaite {
+    box-shadow: 0 0 30px 5px red;
+    border: 1px solid red;
+  }
+
+  #defaite:hover {
+    background-color: red;
+  }
+
+  #abandon {
+    box-shadow: 0 0 30px 5px purple;
+    border: 1px solid purple;
+  }
+
+  #abandon:hover {
+    background-color: purple;
+  }
+
+  /*============================================================================*/
   /*ELEMENTS*/
   /*BASIQUE*/
   .Basique {
-    box-shadow: 0 0 20px 10px #c8a079;
+    box-shadow: 0 0 30px 5px #c8a079;
   }
 
   .Basique .user-nom {
@@ -202,7 +301,7 @@ header {
 
   /*PYRO*/
   .Pyro {
-    box-shadow: 0 0 20px 10px #EC4923;
+    box-shadow: 0 0 30px 5px #EC4923;
   }
 
   .Pyro .user-nom {
@@ -211,7 +310,7 @@ header {
 
   /*HYDRO*/
   .Hydro {
-    box-shadow: 0 0 20px 10px #00BFFF;
+    box-shadow: 0 0 30px 5px #00BFFF;
   }
 
   .Hydro .user-nom {
@@ -220,7 +319,7 @@ header {
 
   /*ANEMO*/
   .Anemo {
-    box-shadow: 0 0 20px 10px #359697;
+    box-shadow: 0 0 30px 5px #359697;
   }
 
   .Anemo .user-nom {
@@ -229,7 +328,7 @@ header {
 
   /*ELECTRO*/
   .Electro {
-    box-shadow: 0 0 20px 10px #945dc4;
+    box-shadow: 0 0 30px 5px #945dc4;
   }
 
   .Electro .user-nom {
@@ -238,7 +337,7 @@ header {
 
   /*DENDRO*/
   .Dendro {
-    box-shadow: 0 0 20px 10px #608a00;
+    box-shadow: 0 0 30px 5px #608a00;
   }
 
   .Dendro .user-nom {
@@ -247,7 +346,7 @@ header {
 
   /*CRYO*/
   .Cryo {
-    box-shadow: 0 0 20px 10px #4682B4;
+    box-shadow: 0 0 30px 5px #4682B4;
   }
 
   .Dendro .user-nom {
@@ -256,10 +355,137 @@ header {
 
   /*GEO*/
   .Geo {
-    box-shadow: 0 0 20px 10px #debd6c;
+    box-shadow: 0 0 30px 5px #debd6c;
   }
 
   .Geo .user-nom {
     box-shadow: 0 0 30px #debd6c;
   }
    
+
+/*TABLEAU*/
+
+#container-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tableau {
+  background-color: #000000ad;
+  box-shadow: 0 0 20px 10px #000000ad;
+  color: white;
+  width: 80%;
+  margin: 30px auto 20px auto;
+  border-collapse: collapse;
+  table-layout: fixed; /* Fixe la largeur des colonnes */
+}
+
+table {
+  width: 100%;
+}
+
+#tableau th, #tableau td {
+  padding: 15px; 
+  text-align: center; 
+}
+
+.cellCharacs {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.cellBoss {
+  display: flex;
+  justify-content: center;
+}
+
+#tableau img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+th {
+  font-weight: bold; /* Texte en gras */
+}
+
+th:nth-child(1), td:nth-child(1) {
+  width: 10%; /* Première colonne à 10% */
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 60%; /* Deuxième colonne à 60% */
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 20%; /* Troisième colonne à 20% */
+}
+
+th:nth-child(4), td:nth-child(4) {
+  width: 10%; /* Dernière colonne à 10% */
+}
+
+#refresh {
+  width: 10%;
+  margin: 20px;
+  background-color: #000000ad;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 10px #000000ad;
+  border: none;
+  cursor: pointer;
+  color:white;
+  border: 1px solid rgba(255, 255, 255, 0.603);
+  padding: 5px;
+  
+}
+
+#refresh:hover {
+  background-color: #000000ad;
+  box-shadow: 0 0 20px 10px #999999ad;
+}
+
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond transparent foncé */
+  display: none; /* Caché par défaut */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.popup-content button:hover {
+  background-color: #ddd;
+}
+
+#popup.popup-visible {
+  display: flex; /* Affiche le pop-up */
+}
+

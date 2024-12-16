@@ -20,11 +20,6 @@
         "name": "Loup du Nord",
         "zone": "Monstadt",
         "picture": "./img/boss/monstadt/lupus.png"
-      },
-      {
-        "name": "Stormterror",
-        "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/stormterror.png"
       }
       
     ]

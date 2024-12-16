@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donators LT</title>
+    <title>Alea Genshin</title>
     <link href="css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,9 +88,9 @@
                 </div>
             </article>
 
-            <article id="big-vs"><button id="btn-play"><img src="img/fight.png" alt="" /></button></article>
+            <article id="big-vs">(Cliquez ici pour un nouveau round)<button id="btn-play"><img src="img/fight.png" alt="" /></button></article>
             
-            <article id="boss" class="player-container">
+            <article id="boss" >
                 <div class="user-card Basique" id="boss-card">
                     <div class="user-photo">
                         <img src="img/charact/other/paimon.png" alt="" />
@@ -98,11 +98,32 @@
                     </div>
                     <div class="user-info">
                         <div class="user-zone">Ici vous aurez sa ville d'origine.</div>
+                        
                     </div>
+                </div>
+
+                <div id="container-btn" style="display: none;">
+                    <button id="victoire">Victoire</button>
+                    <button id="defaite">Défaite</button>
+                    <button id="abandon">Abandon</button>
                 </div>
             </article>
 
         </section>
+
+        <section id="container-results">
+            <div id="tableau"></div>
+            <button id="refresh">Recommencer</button>
+        </section>
+
+        <div id="popup" class="popup-hidden">
+            <div class="popup-content">
+                <p>Voulez-vous vraiment rafraîchir la page ?</p>
+                <button id="confirm-yes">Oui</button>
+                <button id="confirm-no">Non</button>
+            </div>
+        </div>
+        
 
     </main>
 

@@ -280,8 +280,112 @@
         "weapon": "Haste",
         "zone": "Liyue",
         "picture": "./img/charact/anemo/xiao.png"
+      },
+
+
+
+
+
+
+
+      {
+        "element": "Electro",
+        "name": "Beidou",
+        "weapon": "Claymore",
+        "zone": "Liyue",
+        "picture": "./img/charact/electro/beidou.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Clorinde",
+        "weapon": "Epee",
+        "zone": "Fontaine",
+        "picture": "./img/charact/electro/clorinde.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Cyno",
+        "weapon": "Haste",
+        "zone": "Sumeru",
+        "picture": "./img/charact/electro/cyno.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Dori",
+        "weapon": "Claymore",
+        "zone": "Sumeru",
+        "picture": "./img/charact/electro/dori.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Fischl",
+        "weapon": "Arc",
+        "zone": "Monstadt",
+        "picture": "./img/charact/electro/fischl.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Keqing",
+        "weapon": "Epee",
+        "zone": "Liyue",
+        "picture": "./img/charact/electro/keqing.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Lisa",
+        "weapon": "Tome",
+        "zone": "Monstadt",
+        "picture": "./img/charact/electro/lisa.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Ororon",
+        "weapon": "Arc",
+        "zone": "Sumeru",
+        "picture": "./img/charact/electro/ororon.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Razor",
+        "weapon": "Claymore",
+        "zone": "Monstadt",
+        "picture": "./img/charact/electro/razor.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Kujou Sara",
+        "weapon": "Arc",
+        "zone": "Inazuma",
+        "picture": "./img/charact/electro/sara.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Sethos",
+        "weapon": "Arc",
+        "zone": "Sumeru",
+        "picture": "./img/charact/electro/sethos.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Kuki Shinobu",
+        "weapon": "Epee",
+        "zone": "Inazuma",
+        "picture": "./img/charact/electro/shinobu.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Shogun Raiden",
+        "weapon": "Haste",
+        "zone": "Inazuma",
+        "picture": "./img/charact/electro/shogun.png"
+      },  
+      {
+        "element": "Electro",
+        "name": "Yae Miko",
+        "weapon": "Tome",
+        "zone": "Inazuma",
+        "picture": "./img/charact/electro/yaemiko.png"
       }
-      
     ]
   }
   
