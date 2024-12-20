@@ -20,7 +20,233 @@
         "name": "Loup du Nord",
         "zone": "Monstadt",
         "picture": "./img/boss/monstadt/lupus.webp"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Azhdaha",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/azhdaha.webp"
+      },
+      {
+        "name": "Tartaglia",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/childe.webp"
+      },
+      {
+        "name": "Hypostase Geo",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/geo_hypostasis.webp"
+      },
+      {
+        "name": "Géosaure Antique",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/geovishap.webp"
+      },
+      {
+        "name": "Océanide",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/oceanid.webp"
+      },
+      {
+        "name": "Arbre Enflammé",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/pyro_regisvine.webp"
+      },
+      {
+        "name": "Serpent des Ruines",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/ruin_serpent.webp"
+      },
+      {
+        "name": "Suanni Solitaire",
+        "zone": "Liyue",
+        "picture": "./img/boss/liyue/suanni.webp"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Harde d'Elémentosaures Abyssaux",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/bathysmal.webp"
+      },
+      {
+        "name": "Hypostase Hydro",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/hydro_hypostasis.webp"
+      },
+      {
+        "name": "Lame Oni",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/maguu.webp"
+      },
+      {
+        "name": "Manifestation du Tonnerre",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/manifestation.webp"
+      },
+      {
+        "name": "Matrice Mécanique Perpétuelle",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/perpetual.webp"
+      },
+      {
+        "name": "Hypostase Pyro",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/pyro_hypostasis.webp"
+      },
+      {
+        "name": "Narukami no Mikoto la destructrice",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/raiden.webp"
+      },
+      {
+        "name": "Signora",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/signora.webp"
+      },
+      {
+        "name": "Loup Alpha Doré",
+        "zone": "Inazuma",
+        "picture": "./img/boss/inazuma/wolfhord.webp"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Dragon Cataclysmique",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/aeonblight.webp"
+      },
+      {
+        "name": "Algorithme de semi-intransition matriciaire d'observation en néo-réseau",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/algorithm.webp"
+      },
+      {
+        "name": "Gardien de l'Oasis d'Apep",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/apep.webp"
+      },
+      {
+        "name": "Hypostase Dendro",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/dendro_hypostasis.webp"
+      },
+      {
+        "name": "Arbre Foudroyé",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/electro_regisvine.webp"
+      },
+      {
+        "name": "Lustrateur Inique",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/iniquitious.webp"
+      },
+      {
+        "name": "Champieffroi Panaché",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/jadeplume.webp"
+      },
+      {
+        "name": "Shouki no Kami",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/scaramouche.webp"
+      },
+      {
+        "name": "Wenut de Setekh",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/wenut.webp"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Empereur du feu ferreux",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/emperor.webp"
+      },
+      {
+        "name": "Générateur de champ Expérimental",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/experimental.webp"
+      },
+      {
+        "name": "Suite Cryolienne (Coppelius)",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/icewind.webp"
+      },
+      {
+        "name": "Suite Cryolienne (Coppelia)",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/icewind.webp"
+      },
+      {
+        "name": "Peruere",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/knave.webp"
+      },
+      {
+        "name": "Légat Golem",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/legatus.webp"
+      },
+      {
+        "name": "Hippocampe perlé millénaire",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/millennial.webp"
+      },
+      {
+        "name": "Narval Stellavore",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/narwhal.webp"
+      },
+      {
+        "name": "Tulpa Hydro",
+        "zone": "Fontaine",
+        "picture": "./img/boss/fontaine/tulpa.webp"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Automate de source secrète : Configurateur",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/automaton.webp"
+      },
+      {
+        "name": "Papille Obombrée",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/papilla.webp"
+      },
+      {
+        "name": "Tyran Qucusaure de flamme dorée",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/qucusaur.webp"
+      },
+      {
+        "name": "Roi Yumkasaure glouton de la montagne",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/yumkasaur.webp"
       }
+      
       
     ]
   }

@@ -1,30 +1,38 @@
+// Data de références de characters et boss
 let characBase = null;
 let bossesBase = null;
 
+//Data des characters et boss modifiables
 let charac1;
 let charac2;
 let charac3;
 let charac4;
 let bosses;
 
+//Div d'affichage
+const testList = document.getElementById("afficher-all");
+const affichList = document.getElementById('list-charac');
+
+//Boutons de jeux
 const btnPlay = document.getElementById("btn-play");
 const btnWin = document.getElementById("btn-victoire");
 const btnLoo = document.getElementById("btn-defaite");
 const btnAbd = document.getElementById("btn-abandon");
 
+//Card de characters et boss
 const persoA = document.getElementById('perso1');
 const persoB = document.getElementById('perso2');
 const persoC = document.getElementById('perso3');
 const persoD = document.getElementById('perso4');
-
 const bossCard = document.getElementById('boss-card');
 
+//Tableaux
 let tour = 0;
 const contBtn = document.getElementById('container-btn');
-
-const affichList = document.getElementById('list-charac');
 const tabResu = document.getElementById('tableau');
 
+
+//Images pour numero joueur
 const img1P = "img/1P.webp"
 const img2P = "img/2P.webp"
 const img3P = "img/3P.webp"
@@ -40,8 +48,6 @@ async function loadData() {
         charac3 = JSON.parse(JSON.stringify(characBase));
         charac4 = JSON.parse(JSON.stringify(characBase));
 
-        //afficherData(charac1,img1P);
-
         characBase.characters.forEach(item => {
             const img = new Image(); 
             img.src = item.picture; 
@@ -49,38 +55,20 @@ async function loadData() {
 
         const responseBoss = await fetch('./js/bosses.json');
         bossesBase = await responseBoss.json();
-        bosses = bossesBase;
+        bosses = JSON.parse(JSON.stringify(bossesBase));;
         
 
         bossesBase.characters.forEach(item => {
             const imgb = new Image(); 
             imgb.src = item.picture; 
         });
+
+        //afficherData(charac1,img1P);
+        //afficherDataBoss(bosses);
     
     } catch (error) {
         console.error("Erreur lors du chargement des personnages :", error);
     }
-}
-
-function afficherData(data,imgP) {
-    
-    data.characters.forEach(charac => {
-        affichList.innerHTML += `
-        <div class="user-card ${charac.element}" style="width:230px;height :400px;">
-            <div class="user-photo">
-                <img src="${charac.picture}" alt="${charac.name}" />
-                <div class="user-nom">${charac.name}</div>
-                <img class="extra-img" src="${imgP}" alt="" />
-            </div>
-            <div class="user-info">
-                <div class="user-zone">${charac.zone}</div>
-                <div class="user-weapon">${charac.weapon}</div>
-                <div class="user-elem">${charac.element}</div>
-            </div>
-        </div>
-        `;
-    });
-    
 }
 
 
@@ -108,6 +96,8 @@ function afficherCharact(charac, laDiv, imgP) {
         `;
 }
 
+
+//Fonction pour l'affichage du boss
 function afficherBoss(charac, laDiv) {
     if (!charac) 
     {
@@ -116,14 +106,14 @@ function afficherBoss(charac, laDiv) {
     }
     
     laDiv.innerHTML = `
-            <div class="user-photo">
-                <img src="${charac.picture}" alt="${charac.name}" />
-                <div class="user-nom">${charac.name}</div>
-            </div>
-            <div class="user-info">
-                <div class="user-zone">${charac.zone}</div>
-            </div>
-        `;
+        <div class="user-photo">
+            <img src="${charac.picture}" alt="${charac.name}" />
+            <div class="user-nom">${charac.name}</div>
+        </div>
+        <div class="user-info">
+            <div class="user-zone">${charac.zone}</div>
+        </div>
+    `;
 }
 
 
@@ -153,19 +143,15 @@ function getRandomCharacter() {
     const randChar2 = charac2.characters.splice(randInd2, 1)[0];
     const randChar3 = charac3.characters.splice(randInd3, 1)[0];
     const randChar4 = charac4.characters.splice(randInd4, 1)[0];
-    //const randBoss = bosses.characters.splice(randIndB, 1)[0];
-    const randBoss = bosses.characters[randIndB];
+    const randBoss = bosses.characters.splice(randIndB, 1)[0];
 
     afficherCharact(randChar1,persoA,img1P);
     afficherCharact(randChar2,persoB,img2P);
     afficherCharact(randChar3,persoC,img3P);
     afficherCharact(randChar4,persoD,img4P);
     afficherBoss(randBoss,bossCard);
-
     
-
-    
-    // Mettre à jour les actions des boutons
+    // Ajout des resultats dans le tableau
     btnWin.onclick = () => {
         ajouterAuTableau(++tour, [randChar1, randChar2, randChar3, randChar4], randBoss, "Victoire");
         resetBoutons();
@@ -180,26 +166,24 @@ function getRandomCharacter() {
         ajouterAuTableau(++tour, [randChar1, randChar2, randChar3, randChar4], randBoss, "Abandon");
         resetBoutons();
     };
-
-    
 }
 
 // Fonction pour ajouter une ligne au tableau
 function ajouterAuTableau(tour, characs, boss, resultat) {
     const tableBody = document.querySelector("#tableau tbody");
     
-    // Créer une nouvelle ligne
+    
     const row = document.createElement("tr");
-    row.setAttribute("data-result", resultat.toLowerCase()); // Ajouter un attribut data-result pour filtrage
+    row.setAttribute("data-result", resultat.toLowerCase()); 
 
-    // Ajouter le numéro du tour
+    
     const cellTour = document.createElement("td");
     cellTour.innerHTML = `<div class="cellTour"> ${tour} </div>`;
     row.appendChild(cellTour);
 
-    // Ajouter les 4 personnages
+    
     const cellCharacs = document.createElement("td");
-    const imagesP = [img1P, img2P, img3P, img4P]; // Tableau des images spécifiques
+    const imagesP = [img1P, img2P, img3P, img4P]; 
     const allPics = characs.map((charac, index) => `
         <div class="image-container">
             <img src="${imagesP[index]}" class="extra-img" alt="P${index + 1}" style="width: 40px; height: 40px; margin: 0 auto;" />
@@ -209,19 +193,19 @@ function ajouterAuTableau(tour, characs, boss, resultat) {
     cellCharacs.innerHTML = `<div class="cellCharacs"> ${allPics} </div>`;
     row.appendChild(cellCharacs);
 
-    // Ajouter le boss
+    
     const cellBoss = document.createElement("td");
     cellBoss.innerHTML = `<div class="cellBoss">
                             <img src="${boss.picture}" title="${boss.name}"/>
                         </div>`;
     row.appendChild(cellBoss);
 
-    // Ajouter le résultat
+    
     const cellResultat = document.createElement("td");
     cellResultat.innerHTML = `<div class="${resultat}"> ${resultat} </div>`;
     row.appendChild(cellResultat);
 
-    // Ajouter la ligne au tableau
+    
     tableBody.appendChild(row);
 }
 
@@ -287,6 +271,24 @@ function filtrerTableau(type) {
     });
 }
 
+// Sélectionner tous les boutons de filtre
+const filterButtons = document.querySelectorAll('#filter-buttons button');
+
+// Activer le premier bouton par défaut
+if (filterButtons.length > 0) {
+    filterButtons[0].classList.add('active');
+}
+
+// Ajouter un gestionnaire d'événements à chaque bouton
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Supprimer la classe active de tous les boutons
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    // Ajouter la classe active au bouton cliqué
+    button.classList.add('active');
+  });
+});
+
 // Ajout des écouteurs aux boutons
 document.getElementById("filter-all").addEventListener("click", () => filtrerTableau("all"));
 document.getElementById("filter-victories").addEventListener("click", () => filtrerTableau("victoire"));
@@ -297,3 +299,45 @@ document.getElementById("filter-abandons").addEventListener("click", () => filtr
 // Lancement initial
 initialiserTableau();
 loadData();
+
+
+
+//Fonctions secondaires pour verifier les Data
+function afficherData(data,imgP) {
+    
+    data.characters.forEach(charac => {
+        testList.innerHTML += `
+        <div class="user-card ${charac.element}" style="width:230px;height :400px;">
+            <div class="user-photo">
+                <img src="${charac.picture}" alt="${charac.name}" />
+                <div class="user-nom">${charac.name}</div>
+                <img class="extra-img" src="${imgP}" alt="" />
+            </div>
+            <div class="user-info">
+                <div class="user-zone">${charac.zone}</div>
+                <div class="user-weapon">${charac.weapon}</div>
+                <div class="user-elem">${charac.element}</div>
+            </div>
+        </div>
+        `;
+    });
+    
+}
+
+function afficherDataBoss(data) {
+    
+    data.characters.forEach(charac => {
+        testList.innerHTML += `
+        <div class="user-card Basique" id="boss-card">
+            <div class="user-photo">
+                <img src="${charac.picture}" alt="${charac.name}" />
+                <div class="user-nom">${charac.name}</div>
+            </div>
+            <div class="user-info">
+                <div class="user-zone">${charac.zone}</div>
+            </div>
+        </div>
+        `;
+    });
+    
+}

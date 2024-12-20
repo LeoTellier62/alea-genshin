@@ -341,7 +341,7 @@
             "element": "Electro",
             "name": "Ororon",
             "weapon": "Arc",
-            "zone": "Sumeru",
+            "zone": "Natlan",
             "picture": "./img/charact/electro/ororon.webp"
           },  
           {
@@ -385,6 +385,276 @@
             "weapon": "Tome",
             "zone": "Inazuma",
             "picture": "./img/charact/electro/yaemiko.webp"
+          },
+    
+    
+    
+    
+    
+
+          {
+            "element": "Dendro",
+            "name": "Alhaitham",
+            "weapon": "Epee",
+            "zone": "Sumeru",
+            "picture": "./img/charact/dendro/alhaitham.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Baizhu",
+            "weapon": "Tome",
+            "zone": "Liyue",
+            "picture": "./img/charact/dendro/baizhu.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Collei",
+            "weapon": "Arc",
+            "zone": "Sumeru",
+            "picture": "./img/charact/dendro/collei.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Emilie",
+            "weapon": "Haste",
+            "zone": "Fontaine",
+            "picture": "./img/charact/dendro/emilie.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Kaveh",
+            "weapon": "Claymore",
+            "zone": "Sumeru",
+            "picture": "./img/charact/dendro/kaveh.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Kinich",
+            "weapon": "Epee",
+            "zone": "Natlan",
+            "picture": "./img/charact/dendro/Kinich.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Kirara",
+            "weapon": "Epee",
+            "zone": "Inazuma",
+            "picture": "./img/charact/dendro/kirara.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Nahida",
+            "weapon": "Tome",
+            "zone": "Sumeru",
+            "picture": "./img/charact/dendro/nahida.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Tighnari",
+            "weapon": "Arc",
+            "zone": "Sumeru",
+            "picture": "./img/charact/dendro/tighnari.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Yao Yao",
+            "weapon": "Haste",
+            "zone": "Liyue",
+            "picture": "./img/charact/dendro/yaoyao.webp"
+          },
+    
+    
+    
+    
+    
+
+          {
+            "element": "Cryo",
+            "name": "Aloy",
+            "weapon": "Arc",
+            "zone": "Horizon",
+            "picture": "./img/charact/cryo/aloy.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Kamisato Ayaka",
+            "weapon": "Epee",
+            "zone": "Inazuma",
+            "picture": "./img/charact/cryo/ayaka.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Charlotte",
+            "weapon": "Tome",
+            "zone": "Fontaine",
+            "picture": "./img/charact/cryo/charlotte.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Chongyun",
+            "weapon": "Claymore",
+            "zone": "Liyue",
+            "picture": "./img/charact/cryo/chongyun.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Diona",
+            "weapon": "Arc",
+            "zone": "Monstadt",
+            "picture": "./img/charact/cryo/diona.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Eula",
+            "weapon": "Claymore",
+            "zone": "Monstadt",
+            "picture": "./img/charact/cryo/eula.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Freminet",
+            "weapon": "Claymore",
+            "zone": "Fontaine",
+            "picture": "./img/charact/cryo/freminet.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Ganyu",
+            "weapon": "Arc",
+            "zone": "Liyue",
+            "picture": "./img/charact/cryo/ganyu.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Kaeya",
+            "weapon": "Epee",
+            "zone": "Monstadt",
+            "picture": "./img/charact/cryo/kaeya.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Layla",
+            "weapon": "Epee",
+            "zone": "Sumeru",
+            "picture": "./img/charact/cryo/layla.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Mika",
+            "weapon": "Haste",
+            "zone": "Monstadt",
+            "picture": "./img/charact/cryo/mika.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Qiqi",
+            "weapon": "Epee",
+            "zone": "Liyue",
+            "picture": "./img/charact/cryo/qiqi.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Rosaria",
+            "weapon": "Haste",
+            "zone": "Monstadt",
+            "picture": "./img/charact/cryo/rosaria.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Shenhe",
+            "weapon": "Haste",
+            "zone": "Liyue",
+            "picture": "./img/charact/cryo/shenhe.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Wriothesley",
+            "weapon": "Tome",
+            "zone": "Fontaine",
+            "picture": "./img/charact/cryo/wriothesley.webp"
+          },
+    
+    
+    
+    
+    
+
+          {
+            "element": "Geo",
+            "name": "Albedo",
+            "weapon": "Epee",
+            "zone": "Monstadt",
+            "picture": "./img/charact/geo/albedo.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Chiori",
+            "weapon": "Epee",
+            "zone": "Inazuma",
+            "picture": "./img/charact/geo/chiori.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Gorou",
+            "weapon": "Arc",
+            "zone": "Inazuma",
+            "picture": "./img/charact/geo/gorou.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Arataki Itto",
+            "weapon": "Claymore",
+            "zone": "Inazuma",
+            "picture": "./img/charact/geo/itto.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Kachina",
+            "weapon": "Haste",
+            "zone": "Natlan",
+            "picture": "./img/charact/geo/kachina.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Navia",
+            "weapon": "Claymore",
+            "zone": "Fontaine",
+            "picture": "./img/charact/geo/navia.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Ningguang",
+            "weapon": "Tome",
+            "zone": "Liyue",
+            "picture": "./img/charact/geo/ningguang.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Noelle",
+            "weapon": "Claymore",
+            "zone": "Monstadt",
+            "picture": "./img/charact/geo/noelle.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Xilonen",
+            "weapon": "Epee",
+            "zone": "Natlan",
+            "picture": "./img/charact/geo/xilonen.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Yun Jin",
+            "weapon": "Haste",
+            "zone": "Liyue",
+            "picture": "./img/charact/geo/yunjin.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Zhongli",
+            "weapon": "Haste",
+            "zone": "Liyue",
+            "picture": "./img/charact/geo/zhongli.webp"
           }
         ]
       }

@@ -71,6 +71,10 @@ color: white;
 padding: 20px;
 }
 
+#banner {
+  height: 150px;
+}
+
 /*============================================================================*/
 /*MAIN*/
 
@@ -78,6 +82,7 @@ main {
 display: flex;
 flex-direction: column;
 overflow-y: auto;
+padding-top: 30px;
 }
 
 #list-charac {
@@ -105,6 +110,7 @@ justify-content: center;
 margin: 10px 0px 10px 0px;
 width: 300px;
 height: 400px;
+filter: brightness(0.7);
 }
 
 .duo {
@@ -176,6 +182,7 @@ flex-wrap: wrap;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+  gap: 20px;
 }
 
 .user-card:hover .user-photo img,
@@ -241,20 +248,46 @@ flex-wrap: wrap;
 }
 
 #boss-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 500px;
-  width: auto;
+  width: 500px;
   background-color: #000000ad;
   box-shadow: 0 0 20px 10px #000000ad;
+  overflow: hidden; /* Assure que les débordements soient masqués */
 }
+
+#boss-card .user-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#boss-card .user-photo img {
+  width: 95%; 
+  height: auto; 
+  object-fit: contain;
+
+  /* Ajoute le dégradé pour l'effet fade */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 90%, transparent);
+  -webkit-mask-repeat: no-repeat;
+  mask-image: linear-gradient(to bottom, transparent, black 20%, black 90%, transparent);
+  mask-repeat: no-repeat;
+  
+  /* Masquage pour rendre les bords estompés */
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
 
 #boss-card .user-nom{
   background-color: #000000ad;
   box-shadow: 0 0 20px 10px #000000ad;
 }
 
-#boss-card .user-photo {
-  width: 500px;
-}
 
 /*============================================================================*/
 /*Boutons sous Boss*/
@@ -369,10 +402,10 @@ flex-wrap: wrap;
   box-shadow: 0 0 30px #debd6c;
 }
  
-
+/*============================================================================*/
 /*TABLEAU*/
-
 #container-results {
+margin-top: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -424,6 +457,7 @@ font-size: 40px;
 .cellCharacs {
 display: flex;
 justify-content: space-around;
+filter: brightness(0.7); /* 70% de luminosité */
 }
 
 .cellBoss {
@@ -463,6 +497,34 @@ border-radius: 10px;
 padding: 5px;
 }
 
+/* Style commun pour les boutons */
+#filter-buttons button {
+  background-color: #000000ad;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.603);
+  box-shadow: 0 0 20px 10px #000000ad;
+}
+
+#filter-buttons button:hover {
+  background-color: #999999ad;
+  box-shadow: 0 0 20px 10px #999999ad;
+  color: black;
+}
+
+#filter-buttons button.active {
+  background-color: #999999ad; 
+  box-shadow: 0 0 20px 10px #999999ad;
+  color: black;
+}           
+                
+
+/*============================================================================*/
+/* RESTART */
 
 #refresh {
 width: 10%;
