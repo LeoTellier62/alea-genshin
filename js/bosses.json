@@ -4,22 +4,26 @@
       {
         "name": "Hypostase Anemo",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/anemo_hypostasis.webp"
+        "picture": "./img/boss/monstadt/anemo_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Hypostase Cryo",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/cryo_hypostasis.webp"
+        "picture": "./img/boss/monstadt/cryo_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Arbre Congelé",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/cryo_regisvine.webp"
+        "picture": "./img/boss/monstadt/cryo_regisvine.webp",
+        "dungeon": "No"
       },
       {
         "name": "Loup du Nord",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/lupus.webp"
+        "picture": "./img/boss/monstadt/lupus.webp",
+        "dungeon": "No"
       },
     
     
@@ -30,42 +34,50 @@
       {
         "name": "Azhdaha",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/azhdaha.webp"
+        "picture": "./img/boss/liyue/azhdaha.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Tartaglia",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/childe.webp"
+        "picture": "./img/boss/liyue/childe.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Hypostase Geo",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/geo_hypostasis.webp"
+        "picture": "./img/boss/liyue/geo_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Géosaure Antique",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/geovishap.webp"
+        "picture": "./img/boss/liyue/geovishap.webp",
+        "dungeon": "No"
       },
       {
         "name": "Océanide",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/oceanid.webp"
+        "picture": "./img/boss/liyue/oceanid.webp",
+        "dungeon": "No"
       },
       {
         "name": "Arbre Enflammé",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/pyro_regisvine.webp"
+        "picture": "./img/boss/liyue/pyro_regisvine.webp",
+        "dungeon": "No"
       },
       {
         "name": "Serpent des Ruines",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/ruin_serpent.webp"
+        "picture": "./img/boss/liyue/ruin_serpent.webp",
+        "dungeon": "No"
       },
       {
         "name": "Suanni Solitaire",
         "zone": "Liyue",
-        "picture": "./img/boss/liyue/suanni.webp"
+        "picture": "./img/boss/liyue/suanni.webp",
+        "dungeon": "No"
       },
     
     
@@ -76,47 +88,56 @@
       {
         "name": "Harde d'Elémentosaures Abyssaux",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/bathysmal.webp"
+        "picture": "./img/boss/inazuma/bathysmal.webp",
+        "dungeon": "No"
       },
       {
         "name": "Hypostase Hydro",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/hydro_hypostasis.webp"
+        "picture": "./img/boss/inazuma/hydro_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Lame Oni",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/maguu.webp"
+        "picture": "./img/boss/inazuma/maguu.webp",
+        "dungeon": "No"
       },
       {
         "name": "Manifestation du Tonnerre",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/manifestation.webp"
+        "picture": "./img/boss/inazuma/manifestation.webp",
+        "dungeon": "No"
       },
       {
         "name": "Matrice Mécanique Perpétuelle",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/perpetual.webp"
+        "picture": "./img/boss/inazuma/perpetual.webp",
+        "dungeon": "No"
       },
       {
         "name": "Hypostase Pyro",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/pyro_hypostasis.webp"
+        "picture": "./img/boss/inazuma/pyro_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Narukami no Mikoto la destructrice",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/raiden.webp"
+        "picture": "./img/boss/inazuma/raiden.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Signora",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/signora.webp"
+        "picture": "./img/boss/inazuma/signora.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Loup Alpha Doré",
         "zone": "Inazuma",
-        "picture": "./img/boss/inazuma/wolfhord.webp"
+        "picture": "./img/boss/inazuma/wolfhord.webp",
+        "dungeon": "No"
       },
     
     
@@ -127,47 +148,56 @@
       {
         "name": "Dragon Cataclysmique",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/aeonblight.webp"
+        "picture": "./img/boss/sumeru/aeonblight.webp",
+        "dungeon": "No"
       },
       {
         "name": "Algorithme de semi-intransition matriciaire d'observation en néo-réseau",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/algorithm.webp"
+        "picture": "./img/boss/sumeru/algorithm.webp",
+        "dungeon": "No"
       },
       {
         "name": "Gardien de l'Oasis d'Apep",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/apep.webp"
+        "picture": "./img/boss/sumeru/apep.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Hypostase Dendro",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/dendro_hypostasis.webp"
+        "picture": "./img/boss/sumeru/dendro_hypostasis.webp",
+        "dungeon": "No"
       },
       {
         "name": "Arbre Foudroyé",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/electro_regisvine.webp"
+        "picture": "./img/boss/sumeru/electro_regisvine.webp",
+        "dungeon": "No"
       },
       {
         "name": "Lustrateur Inique",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/iniquitious.webp"
+        "picture": "./img/boss/sumeru/iniquitious.webp",
+        "dungeon": "No"
       },
       {
         "name": "Champieffroi Panaché",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/jadeplume.webp"
+        "picture": "./img/boss/sumeru/jadeplume.webp",
+        "dungeon": "No"
       },
       {
         "name": "Shouki no Kami",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/scaramouche.webp"
+        "picture": "./img/boss/sumeru/scaramouche.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Wenut de Setekh",
         "zone": "Sumeru",
-        "picture": "./img/boss/sumeru/wenut.webp"
+        "picture": "./img/boss/sumeru/wenut.webp",
+        "dungeon": "No"
       },
     
     
@@ -178,47 +208,56 @@
       {
         "name": "Empereur du feu ferreux",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/emperor.webp"
+        "picture": "./img/boss/fontaine/emperor.webp",
+        "dungeon": "No"
       },
       {
         "name": "Générateur de champ Expérimental",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/experimental.webp"
+        "picture": "./img/boss/fontaine/experimental.webp",
+        "dungeon": "No"
       },
       {
         "name": "Suite Cryolienne (Coppelius)",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/icewind.webp"
+        "picture": "./img/boss/fontaine/icewind.webp",
+        "dungeon": "No"
       },
       {
         "name": "Suite Cryolienne (Coppelia)",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/icewind.webp"
+        "picture": "./img/boss/fontaine/icewind.webp",
+        "dungeon": "No"
       },
       {
         "name": "Peruere",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/knave.webp"
+        "picture": "./img/boss/fontaine/knave.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Légat Golem",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/legatus.webp"
+        "picture": "./img/boss/fontaine/legatus.webp",
+        "dungeon": "No"
       },
       {
         "name": "Hippocampe perlé millénaire",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/millennial.webp"
+        "picture": "./img/boss/fontaine/millennial.webp",
+        "dungeon": "No"
       },
       {
         "name": "Narval Stellavore",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/narwhal.webp"
+        "picture": "./img/boss/fontaine/narwhal.webp",
+        "dungeon": "Yes"
       },
       {
         "name": "Tulpa Hydro",
         "zone": "Fontaine",
-        "picture": "./img/boss/fontaine/tulpa.webp"
+        "picture": "./img/boss/fontaine/tulpa.webp",
+        "dungeon": "No"
       },
     
     
@@ -229,22 +268,26 @@
       {
         "name": "Automate de source secrète : Configurateur",
         "zone": "Natlan",
-        "picture": "./img/boss/natlan/automaton.webp"
+        "picture": "./img/boss/natlan/automaton.webp",
+        "dungeon": "No"
       },
       {
         "name": "Papille Obombrée",
         "zone": "Natlan",
-        "picture": "./img/boss/natlan/papilla.webp"
+        "picture": "./img/boss/natlan/papilla.webp",
+        "dungeon": "No"
       },
       {
         "name": "Tyran Qucusaure de flamme dorée",
         "zone": "Natlan",
-        "picture": "./img/boss/natlan/qucusaur.webp"
+        "picture": "./img/boss/natlan/qucusaur.webp",
+        "dungeon": "No"
       },
       {
         "name": "Roi Yumkasaure glouton de la montagne",
         "zone": "Natlan",
-        "picture": "./img/boss/natlan/yumkasaur.webp"
+        "picture": "./img/boss/natlan/yumkasaur.webp",
+        "dungeon": "No"
       }
       
       

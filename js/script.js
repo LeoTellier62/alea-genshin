@@ -1,3 +1,7 @@
+//==============================================================================
+// VARIABLES
+//==============================================================================
+
 // Data de références de characters et boss
 let characBase = null;
 let bossesBase = null;
@@ -38,6 +42,11 @@ const img2P = "img/2P.webp"
 const img3P = "img/3P.webp"
 const img4P = "img/4P.webp"
 
+
+//==============================================================================
+// DATA FETCH
+//==============================================================================
+
 // Charger le fichier JSON
 async function loadData() {
     try {
@@ -71,6 +80,10 @@ async function loadData() {
     }
 }
 
+
+//==============================================================================
+// AFFICHAGES
+//==============================================================================
 
 // Fonction pour afficher un personnage dans une div spécifique
 function afficherCharact(charac, laDiv, imgP) {
@@ -117,6 +130,9 @@ function afficherBoss(charac, laDiv) {
 }
 
 
+//==============================================================================
+// CHANGEMENT ALEATOIRE
+//==============================================================================
 
 function getRandomCharacter() {
     if (!characBase || characBase.length === 0) 
@@ -168,6 +184,19 @@ function getRandomCharacter() {
     };
 }
 
+btnPlay.addEventListener('click', () => {
+    if (characBase) {
+        getRandomCharacter();
+        btnPlay.disabled = true;  
+        contBtn.style.display = 'flex';
+    }
+});
+
+
+//==============================================================================
+// TABLEAUX
+//==============================================================================
+
 // Fonction pour ajouter une ligne au tableau
 function ajouterAuTableau(tour, characs, boss, resultat) {
     const tableBody = document.querySelector("#tableau tbody");
@@ -210,19 +239,6 @@ function ajouterAuTableau(tour, characs, boss, resultat) {
 }
 
 
-btnPlay.addEventListener('click', () => {
-    if (characBase) {
-        getRandomCharacter();
-        btnPlay.disabled = true;  
-        contBtn.style.display = 'flex';
-    }
-});
-
-function resetBoutons() {
-    btnPlay.disabled = false;
-    contBtn.style.display = 'none';
-}
-
 // Initialiser le tableau HTML
 function initialiserTableau() {
     tabResu.innerHTML = `
@@ -239,23 +255,6 @@ function initialiserTableau() {
         </table>
     `;
 }
-
-// Ajout d'un événement au bouton pour afficher le pop-up
-document.getElementById('refresh').addEventListener('click', () => {
-    const popup = document.getElementById('popup');
-    popup.classList.add('popup-visible');
-});
-
-// Action pour le bouton "Oui"
-document.getElementById('confirm-yes').addEventListener('click', () => {
-    location.reload(); 
-});
-
-// Action pour le bouton "Non"
-document.getElementById('confirm-no').addEventListener('click', () => {
-    const popup = document.getElementById('popup');
-    popup.classList.remove('popup-visible');
-});
 
 // Fonction pour filtrer le tableau
 function filtrerTableau(type) {
@@ -296,11 +295,58 @@ document.getElementById("filter-defeats").addEventListener("click", () => filtre
 document.getElementById("filter-abandons").addEventListener("click", () => filtrerTableau("abandon"));
 
 
+//==============================================================================
+// RULES
+//==============================================================================
+
+//Pour fermer le Pop-up d'entrée
+const startGameButton = document.getElementById('start-game');
+
+startGameButton.addEventListener('click', () => {
+  const rulesPopup = document.getElementById('popup-rules');
+  rulesPopup.style.display = 'none'; // Cache le pop-up
+  document.body.classList.remove('popup-active'); // Enlève l'effet de flou
+});
+
+
+//==============================================================================
+// RESTART
+//==============================================================================
+
+function resetBoutons() {
+    btnPlay.disabled = false;
+    contBtn.style.display = 'none';
+}
+
+// Ajout d'un événement au bouton pour afficher le pop-up
+document.getElementById('refresh').addEventListener('click', () => {
+    const popup = document.getElementById('popup');
+    popup.classList.add('popup-visible');
+});
+
+// Action pour le bouton "Oui"
+document.getElementById('confirm-yes').addEventListener('click', () => {
+    location.reload(); 
+});
+
+// Action pour le bouton "Non"
+document.getElementById('confirm-no').addEventListener('click', () => {
+    const popup = document.getElementById('popup');
+    popup.classList.remove('popup-visible');
+});
+
+
+//==============================================================================
+// INIT
+//==============================================================================
 // Lancement initial
 initialiserTableau();
 loadData();
 
 
+//==============================================================================
+// UTILITY DEV
+//==============================================================================
 
 //Fonctions secondaires pour verifier les Data
 function afficherData(data,imgP) {
