@@ -6,91 +6,91 @@
         "name": "Amber",
         "weapon": "Arc",
         "zone": "Monstadt",
-        "picture": "./img/charact/pyro/amber.png"
+        "picture": "./img/charact/pyro/amber.webp"
       },
       {
         "element": "Pyro",
         "name": "Bennett",
         "weapon": "Epee",
         "zone": "Monstadt",
-        "picture": "./img/charact/pyro/bennett.png"
+        "picture": "./img/charact/pyro/bennett.webp"
       },
       {
         "element": "Pyro",
         "name": "Diluc",
         "weapon": "Claymore",
         "zone": "Monstadt",
-        "picture": "./img/charact/pyro/diluc.png"
+        "picture": "./img/charact/pyro/diluc.webp"
       },
       {
         "element": "Pyro",
         "name": "Klee",
         "weapon": "Tome",
         "zone": "Monstadt",
-        "picture": "./img/charact/pyro/klee.png"
+        "picture": "./img/charact/pyro/klee.webp"
       },
       {
         "element": "Pyro",
         "name": "Hu tao",
         "weapon": "Haste",
         "zone": "Liyue",
-        "picture": "./img/charact/pyro/hutao.png"
+        "picture": "./img/charact/pyro/hutao.webp"
       },
       {
         "element": "Pyro",
         "name": "Xiangling",
         "weapon": "Haste",
         "zone": "Liyue",
-        "picture": "./img/charact/pyro/xiangling.png"
+        "picture": "./img/charact/pyro/xiangling.webp"
       },
       {
         "element": "Pyro",
         "name": "Xinyan",
         "weapon": "Claymore",
         "zone": "Liyue",
-        "picture": "./img/charact/pyro/xinyan.png"
+        "picture": "./img/charact/pyro/xinyan.webp"
       },
       {
         "element": "Pyro",
         "name": "Yanfei",
         "weapon": "Tome",
         "zone": "Liyue",
-        "picture": "./img/charact/pyro/yanfei.png"
+        "picture": "./img/charact/pyro/yanfei.webp"
       },
       {
         "element": "Pyro",
         "name": "Thoma",
         "weapon": "Haste",
         "zone": "Inazuma",
-        "picture": "./img/charact/pyro/thoma.png"
+        "picture": "./img/charact/pyro/thoma.webp"
       },
       {
         "element": "Pyro",
         "name": "Yoimiya",
         "weapon": "Arc",
         "zone": "Inazuma",
-        "picture": "./img/charact/pyro/yoimiya.png"
+        "picture": "./img/charact/pyro/yoimiya.webp"
       },
       {
         "element": "Pyro",
         "name": "Dehya",
         "weapon": "Claymore",
         "zone": "Sumeru",
-        "picture": "./img/charact/pyro/dehya.png"
+        "picture": "./img/charact/pyro/dehya.webp"
       },
       {
         "element": "Pyro",
         "name": "Arlecchino",
         "weapon": "Haste",
         "zone": "Fontaine",
-        "picture": "./img/charact/pyro/arlecchino.png"
+        "picture": "./img/charact/pyro/arlecchino.webp"
       },
       {
         "element": "Pyro",
         "name": "Lyney",
         "weapon": "Arc",
         "zone": "Fontaine",
-        "picture": "./img/charact/pyro/lyney.png"
+        "picture": "./img/charact/pyro/lyney.webp"
       },
 
 
@@ -104,91 +104,91 @@
         "name": "Kamisato Ayato",
         "weapon": "Epee",
         "zone": "Inazuma",
-        "picture": "./img/charact/hydro/ayato.png"
+        "picture": "./img/charact/hydro/ayato.webp"
       },
       {
         "element": "Hydro",
         "name": "Barbara",
         "weapon": "Tome",
         "zone": "Monstadt",
-        "picture": "./img/charact/hydro/barbara.png"
+        "picture": "./img/charact/hydro/barbara.webp"
       },
       {
         "element": "Hydro",
         "name": "Candace",
         "weapon": "Haste",
         "zone": "Sumeru",
-        "picture": "./img/charact/hydro/candace.png"
+        "picture": "./img/charact/hydro/candace.webp"
       },
       {
         "element": "Hydro",
         "name": "Furina",
         "weapon": "Epee",
         "zone": "Fontaine",
-        "picture": "./img/charact/hydro/furina.png"
+        "picture": "./img/charact/hydro/furina.webp"
       },
       {
         "element": "Hydro",
         "name": "Sangonomiya Kokomi",
         "weapon": "Tome",
         "zone": "Inazuma",
-        "picture": "./img/charact/hydro/kokomi.png"
+        "picture": "./img/charact/hydro/kokomi.webp"
       },
       {
         "element": "Hydro",
         "name": "Mona",
         "weapon": "Tome",
         "zone": "Monstadt",
-        "picture": "./img/charact/hydro/mona.png"
+        "picture": "./img/charact/hydro/mona.webp"
       },
       {
         "element": "Hydro",
         "name": "Mualani",
         "weapon": "Tome",
         "zone": "Natlan",
-        "picture": "./img/charact/hydro/mualani.png"
+        "picture": "./img/charact/hydro/mualani.webp"
       },
       {
         "element": "Hydro",
         "name": "Neuvillette",
         "weapon": "Tome",
         "zone": "Fontaine",
-        "picture": "./img/charact/hydro/neuvillette.png"
+        "picture": "./img/charact/hydro/neuvillette.webp"
       },
       {
         "element": "Hydro",
         "name": "Nilou",
         "weapon": "Epee",
         "zone": "Sumeru",
-        "picture": "./img/charact/hydro/nilou.png"
+        "picture": "./img/charact/hydro/nilou.webp"
       },
       {
         "element": "Hydro",
         "name": "Sigewinne",
         "weapon": "Arc",
         "zone": "Fontaine",
-        "picture": "./img/charact/hydro/sigewinne.png"
+        "picture": "./img/charact/hydro/sigewinne.webp"
       },
       {
         "element": "Hydro",
         "name": "Tartaglia",
         "weapon": "Arc",
         "zone": "Snezhnaya",
-        "picture": "./img/charact/hydro/tartaglia.png"
+        "picture": "./img/charact/hydro/tartaglia.webp"
       },
       {
         "element": "Hydro",
         "name": "Xingqiu",
         "weapon": "Epee",
         "zone": "Liyue",
-        "picture": "./img/charact/hydro/xingqiu.png"
+        "picture": "./img/charact/hydro/xingqiu.webp"
       },
       {
         "element": "Hydro",
         "name": "Yelan",
         "weapon": "Arc",
         "zone": "Liyue",
-        "picture": "./img/charact/hydro/yelan.png"
+        "picture": "./img/charact/hydro/yelan.webp"
       },
 
 
@@ -202,84 +202,84 @@
         "name": "Chasca",
         "weapon": "Arc",
         "zone": "Natlan",
-        "picture": "./img/charact/anemo/chasca.png"
+        "picture": "./img/charact/anemo/chasca.webp"
       },
       {
         "element": "Anemo",
         "name": "Faruzan",
         "weapon": "Arc",
         "zone": "Sumeru",
-        "picture": "./img/charact/anemo/faruzan.png"
+        "picture": "./img/charact/anemo/faruzan.webp"
       },
       {
         "element": "Anemo",
         "name": "Shikanoin Heizou",
         "weapon": "Tome",
         "zone": "Inazuma",
-        "picture": "./img/charact/anemo/heizou.png"
+        "picture": "./img/charact/anemo/heizou.webp"
       },
       {
         "element": "Anemo",
         "name": "Jean",
         "weapon": "Epee",
         "zone": "Monstadt",
-        "picture": "./img/charact/anemo/jean.png"
+        "picture": "./img/charact/anemo/jean.webp"
       },
       {
         "element": "Anemo",
         "name": "Kaedehara Kazuha",
         "weapon": "Epee",
         "zone": "Inazuma",
-        "picture": "./img/charact/anemo/kazuha.png"
+        "picture": "./img/charact/anemo/kazuha.webp"
       },
       {
         "element": "Anemo",
         "name": "Lynette",
         "weapon": "Epee",
         "zone": "Fontaine",
-        "picture": "./img/charact/anemo/lynette.png"
+        "picture": "./img/charact/anemo/lynette.webp"
       },
       {
         "element": "Anemo",
         "name": "Sayu",
         "weapon": "Claymore",
         "zone": "Inazuma",
-        "picture": "./img/charact/anemo/sayu.png"
+        "picture": "./img/charact/anemo/sayu.webp"
       },
       {
         "element": "Anemo",
         "name": "Sucrose",
         "weapon": "Tome",
         "zone": "Monstadt",
-        "picture": "./img/charact/anemo/sucrose.png"
+        "picture": "./img/charact/anemo/sucrose.webp"
       },
       {
         "element": "Anemo",
         "name": "Venti",
         "weapon": "Arc",
         "zone": "Monstadt",
-        "picture": "./img/charact/anemo/venti.png"
+        "picture": "./img/charact/anemo/venti.webp"
       },
       {
         "element": "Anemo",
         "name": "Nomade",
         "weapon": "Tome",
         "zone": "Sumeru",
-        "picture": "./img/charact/anemo/wanderer.png"
+        "picture": "./img/charact/anemo/wanderer.webp"
       },
       {
         "element": "Anemo",
         "name": "Xianyun",
         "weapon": "Tome",
         "zone": "Liyue",
-        "picture": "./img/charact/anemo/xianyun.png"
+        "picture": "./img/charact/anemo/xianyun.webp"
       },
       {
         "element": "Anemo",
         "name": "Xiao",
         "weapon": "Haste",
         "zone": "Liyue",
-        "picture": "./img/charact/anemo/xiao.png"
+        "picture": "./img/charact/anemo/xiao.webp"
       },
 
 
@@ -293,98 +293,98 @@
         "name": "Beidou",
         "weapon": "Claymore",
         "zone": "Liyue",
-        "picture": "./img/charact/electro/beidou.png"
+        "picture": "./img/charact/electro/beidou.webp"
       },  
       {
         "element": "Electro",
         "name": "Clorinde",
         "weapon": "Epee",
         "zone": "Fontaine",
-        "picture": "./img/charact/electro/clorinde.png"
+        "picture": "./img/charact/electro/clorinde.webp"
       },  
       {
         "element": "Electro",
         "name": "Cyno",
         "weapon": "Haste",
         "zone": "Sumeru",
-        "picture": "./img/charact/electro/cyno.png"
+        "picture": "./img/charact/electro/cyno.webp"
       },  
       {
         "element": "Electro",
         "name": "Dori",
         "weapon": "Claymore",
         "zone": "Sumeru",
-        "picture": "./img/charact/electro/dori.png"
+        "picture": "./img/charact/electro/dori.webp"
       },  
       {
         "element": "Electro",
         "name": "Fischl",
         "weapon": "Arc",
         "zone": "Monstadt",
-        "picture": "./img/charact/electro/fischl.png"
+        "picture": "./img/charact/electro/fischl.webp"
       },  
       {
         "element": "Electro",
         "name": "Keqing",
         "weapon": "Epee",
         "zone": "Liyue",
-        "picture": "./img/charact/electro/keqing.png"
+        "picture": "./img/charact/electro/keqing.webp"
       },  
       {
         "element": "Electro",
         "name": "Lisa",
         "weapon": "Tome",
         "zone": "Monstadt",
-        "picture": "./img/charact/electro/lisa.png"
+        "picture": "./img/charact/electro/lisa.webp"
       },  
       {
         "element": "Electro",
         "name": "Ororon",
         "weapon": "Arc",
         "zone": "Sumeru",
-        "picture": "./img/charact/electro/ororon.png"
+        "picture": "./img/charact/electro/ororon.webp"
       },  
       {
         "element": "Electro",
         "name": "Razor",
         "weapon": "Claymore",
         "zone": "Monstadt",
-        "picture": "./img/charact/electro/razor.png"
+        "picture": "./img/charact/electro/razor.webp"
       },  
       {
         "element": "Electro",
         "name": "Kujou Sara",
         "weapon": "Arc",
         "zone": "Inazuma",
-        "picture": "./img/charact/electro/sara.png"
+        "picture": "./img/charact/electro/sara.webp"
       },  
       {
         "element": "Electro",
         "name": "Sethos",
         "weapon": "Arc",
         "zone": "Sumeru",
-        "picture": "./img/charact/electro/sethos.png"
+        "picture": "./img/charact/electro/sethos.webp"
       },  
       {
         "element": "Electro",
         "name": "Kuki Shinobu",
         "weapon": "Epee",
         "zone": "Inazuma",
-        "picture": "./img/charact/electro/shinobu.png"
+        "picture": "./img/charact/electro/shinobu.webp"
       },  
       {
         "element": "Electro",
         "name": "Shogun Raiden",
         "weapon": "Haste",
         "zone": "Inazuma",
-        "picture": "./img/charact/electro/shogun.png"
+        "picture": "./img/charact/electro/shogun.webp"
       },  
       {
         "element": "Electro",
         "name": "Yae Miko",
         "weapon": "Tome",
         "zone": "Inazuma",
-        "picture": "./img/charact/electro/yaemiko.png"
+        "picture": "./img/charact/electro/yaemiko.webp"
       }
     ]
   }

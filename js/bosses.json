@@ -4,22 +4,22 @@
       {
         "name": "Hypostase Anemo",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/anemo_hypostasis.png"
+        "picture": "./img/boss/monstadt/anemo_hypostasis.webp"
       },
       {
         "name": "Hypostase Cryo",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/cryo_hypostasis.png"
+        "picture": "./img/boss/monstadt/cryo_hypostasis.webp"
       },
       {
         "name": "Arbre Congelé",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/cryo_regisvine.png"
+        "picture": "./img/boss/monstadt/cryo_regisvine.webp"
       },
       {
         "name": "Loup du Nord",
         "zone": "Monstadt",
-        "picture": "./img/boss/monstadt/lupus.png"
+        "picture": "./img/boss/monstadt/lupus.webp"
       }
       
     ]

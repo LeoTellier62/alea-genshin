@@ -25,10 +25,10 @@ const contBtn = document.getElementById('container-btn');
 const affichList = document.getElementById('list-charac');
 const tabResu = document.getElementById('tableau');
 
-const img1P = "img/1P.png"
-const img2P = "img/2P.png"
-const img3P = "img/3P.png"
-const img4P = "img/4P.png"
+const img1P = "img/1P.webp"
+const img2P = "img/2P.webp"
+const img3P = "img/3P.webp"
+const img4P = "img/4P.webp"
 
 // Charger le fichier JSON
 async function loadData() {
