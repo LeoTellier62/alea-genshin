@@ -135,39 +135,74 @@ function afficherBoss(charac, laDiv) {
 //==============================================================================
 
 function getRandomCharacter() {
-    if (!characBase || characBase.length === 0) 
-    {
+    if (!characBase || characBase.characters.length === 0 
+        || !charac1 || charac1.characters.length === 0 
+        || !charac2 || charac2.characters.length === 0 
+        || !charac3 || charac3.characters.length === 0 
+        || !charac4 || charac4.characters.length === 0 
+    ) {
         alert("Aucun personnage disponible.");
         return null;
     }
 
-    if (!bossesBase || bossesBase.length === 0) 
-    {
-        alert("Vous avez combattu tout les Boss. Bravo !");
+    if (!bossesBase || bosses.characters.length === 0) {
+        alert("Vous avez combattu tous les Boss. Bravo !");
         return null;
     }
-    
+
     const randInd1 = Math.floor(Math.random() * charac1.characters.length);
     const randInd2 = Math.floor(Math.random() * charac2.characters.length);
     const randInd3 = Math.floor(Math.random() * charac3.characters.length);
     const randInd4 = Math.floor(Math.random() * charac4.characters.length);
     const randIndB = Math.floor(Math.random() * bosses.characters.length);
 
-    console.log(`charac 1 = ${charac1.characters.length}`);
-    
     const randChar1 = charac1.characters.splice(randInd1, 1)[0];
     const randChar2 = charac2.characters.splice(randInd2, 1)[0];
     const randChar3 = charac3.characters.splice(randInd3, 1)[0];
     const randChar4 = charac4.characters.splice(randInd4, 1)[0];
     const randBoss = bosses.characters.splice(randIndB, 1)[0];
 
-    afficherCharact(randChar1,persoA,img1P);
-    afficherCharact(randChar2,persoB,img2P);
-    afficherCharact(randChar3,persoC,img3P);
-    afficherCharact(randChar4,persoD,img4P);
-    afficherBoss(randBoss,bossCard);
-    
-    // Ajout des resultats dans le tableau
+    // Vérification si le boss a dungeon = "Yes"
+    if (randBoss.dungeon === "Yes") {
+        const selectedNames = new Set();
+
+        // Vérification pour le personnage 1
+        while (selectedNames.has(randChar1.name)) {
+            const newInd = Math.floor(Math.random() * charac1.characters.length);
+            randChar1.name = charac1.characters[newInd].name;
+        }
+        selectedNames.add(randChar1.name);
+
+        // Vérification pour le personnage 2
+        while (selectedNames.has(randChar2.name)) {
+            const newInd = Math.floor(Math.random() * charac2.characters.length);
+            randChar2.name = charac2.characters[newInd].name;
+        }
+        selectedNames.add(randChar2.name);
+
+        // Vérification pour le personnage 3
+        while (selectedNames.has(randChar3.name)) {
+            const newInd = Math.floor(Math.random() * charac3.characters.length);
+            randChar3.name = charac3.characters[newInd].name;
+        }
+        selectedNames.add(randChar3.name);
+
+        // Vérification pour le personnage 4
+        while (selectedNames.has(randChar4.name)) {
+            const newInd = Math.floor(Math.random() * charac4.characters.length);
+            randChar4.name = charac4.characters[newInd].name;
+        }
+        selectedNames.add(randChar4.name);
+    }
+
+    // Affichage des personnages et du boss
+    afficherCharact(randChar1, persoA, img1P);
+    afficherCharact(randChar2, persoB, img2P);
+    afficherCharact(randChar3, persoC, img3P);
+    afficherCharact(randChar4, persoD, img4P);
+    afficherBoss(randBoss, bossCard);
+
+    // Ajout des résultats dans le tableau
     btnWin.onclick = () => {
         ajouterAuTableau(++tour, [randChar1, randChar2, randChar3, randChar4], randBoss, "Victoire");
         resetBoutons();
@@ -183,6 +218,7 @@ function getRandomCharacter() {
         resetBoutons();
     };
 }
+
 
 btnPlay.addEventListener('click', () => {
     if (characBase) {
