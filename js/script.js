@@ -248,7 +248,7 @@ document.getElementById('refresh').addEventListener('click', () => {
 
 // Action pour le bouton "Oui"
 document.getElementById('confirm-yes').addEventListener('click', () => {
-    location.reload(); // Rafraîchit la page
+    location.reload(); 
 });
 
 // Action pour le bouton "Non"
@@ -262,11 +262,11 @@ function filtrerTableau(type) {
     const rows = document.querySelectorAll("#tableau tbody tr");
 
     rows.forEach(row => {
-        const result = row.getAttribute("data-result"); // Récupérer l'attribut data-result
+        const result = row.getAttribute("data-result"); 
         if (type === "all" || result === type) {
-            row.style.display = ""; // Afficher la ligne
+            row.style.display = ""; 
         } else {
-            row.style.display = "none"; // Masquer la ligne
+            row.style.display = "none"; 
         }
     });
 }
