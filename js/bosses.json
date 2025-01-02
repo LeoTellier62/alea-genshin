@@ -288,6 +288,19 @@
         "zone": "Natlan",
         "picture": "./img/boss/natlan/yumkasaur.webp",
         "dungeon": "No"
+      },
+      {
+        "name": "Spiritoratrice excentrique isolée",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/spiritoratrice.webp",
+        "dungeon": "No"
+      }
+      ,
+      {
+        "name": "Gosoythoth",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/gosoythoth.webp",
+        "dungeon": "Yes"
       }
       
       

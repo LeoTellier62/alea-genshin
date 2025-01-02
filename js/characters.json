@@ -92,6 +92,13 @@
             "zone": "Fontaine",
             "picture": "./img/charact/pyro/lyney.webp"
           },
+          {
+            "element": "Pyro",
+            "name": "Mavuika",
+            "weapon": "Claymore",
+            "zone": "Natlan",
+            "picture": "./img/charact/pyro/mavuika.webp"
+          },
     
     
     
@@ -572,6 +579,13 @@
             "weapon": "Tome",
             "zone": "Fontaine",
             "picture": "./img/charact/cryo/wriothesley.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Citlali",
+            "weapon": "Tome",
+            "zone": "Natlan",
+            "picture": "./img/charact/cryo/citlali.webp"
           },
     
     
