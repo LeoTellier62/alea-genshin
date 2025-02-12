@@ -241,6 +241,13 @@
           },
           {
             "element": "Anemo",
+            "name": "Lan Yan",
+            "weapon": "Tome",
+            "zone": "Liyue",
+            "picture": "./img/charact/anemo/lan_yan.webp"
+          },
+          {
+            "element": "Anemo",
             "name": "Lynette",
             "weapon": "Epee",
             "zone": "Fontaine",
@@ -288,7 +295,13 @@
             "zone": "Liyue",
             "picture": "./img/charact/anemo/xiao.webp"
           },
-    
+          {
+            "element": "Anemo",
+            "name": "Yumemizuki Mizuki",
+            "weapon": "Tome",
+            "zone": "Inazuma",
+            "picture": "./img/charact/anemo/mizuki.webp"
+          },
     
     
     
