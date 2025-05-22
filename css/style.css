@@ -59,7 +59,7 @@ font-family: 'Genshin', sans-serif;
 }
 
 html {
-background-image: url('./img/background.webp');
+background-image: url('https://github.com/LeoTellier62/alea-genshin/blob/main/img/background.webp');
 background-size: cover;
 background-attachment: fixed;
 }
