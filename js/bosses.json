@@ -294,13 +294,24 @@
         "zone": "Natlan",
         "picture": "./img/boss/natlan/spiritoratrice.webp",
         "dungeon": "No"
-      }
-      ,
+      },
       {
         "name": "Gosoythoth",
         "zone": "Natlan",
         "picture": "./img/boss/natlan/gosoythoth.webp",
         "dungeon": "Yes"
+      }
+      ,{
+        "name": "Automate de source secrète : Surveillant",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/automates.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Statue de dragon de lave",
+        "zone": "Natlan",
+        "picture": "./img/boss/natlan/statue.webp",
+        "dungeon": "No"
       }
       
       
