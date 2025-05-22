@@ -668,6 +668,7 @@ body.popup-active {
   #list-charac{
     flex-direction: column;
   }
+
   #player
   {
     width: 100%;
@@ -692,5 +693,6 @@ body.popup-active {
     .user-card 
     {
       width: 100%;
+      height: 400px;
     }
 }
