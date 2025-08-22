@@ -12,28 +12,28 @@
             "element": "Pyro",
             "name": "Amber",
             "weapon": "Arc",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/pyro/amber.webp"
           },
           {
             "element": "Pyro",
             "name": "Bennett",
             "weapon": "Epee",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/pyro/bennett.webp"
           },
           {
             "element": "Pyro",
             "name": "Diluc",
             "weapon": "Claymore",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/pyro/diluc.webp"
           },
           {
             "element": "Pyro",
             "name": "Klee",
             "weapon": "Catalyseur",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/pyro/klee.webp"
           },
           {
@@ -137,14 +137,21 @@
             "element": "Hydro",
             "name": "Barbara",
             "weapon": "Catalyseur",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/hydro/barbara.webp"
+          },
+          {
+            "element": "Hydro",
+            "name": "Dahlia",
+            "weapon": "Épée",
+            "zone": "Mondstadt",
+            "picture": "./img/charact/hydro/dahlia.webp"
           },
           {
             "element": "Hydro",
             "name": "Mona",
             "weapon": "Catalyseur",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/hydro/mona.webp"
           },
           {
@@ -241,21 +248,21 @@
             "element": "Anemo",
             "name": "Jean",
             "weapon": "Epee",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/anemo/jean.webp"
           },
           {
             "element": "Anemo",
             "name": "Sucrose",
             "weapon": "Catalyseur",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/anemo/sucrose.webp"
           },
           {
             "element": "Anemo",
             "name": "Venti",
             "weapon": "Arc",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/anemo/venti.webp"
           },
           {
@@ -361,21 +368,21 @@
             "element": "Electro",
             "name": "Fischl",
             "weapon": "Arc",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/electro/fischl.webp"
           }, 
           {
             "element": "Electro",
             "name": "Lisa",
             "weapon": "Catalyseur",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/electro/lisa.webp"
           },
           {
             "element": "Electro",
             "name": "Razor",
             "weapon": "Claymore",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/electro/razor.webp"
           },
           {
@@ -468,6 +475,13 @@
             "weapon": "Catalyseur",
             "zone": "Natlan",
             "picture": "./img/charact/electro/varesa.webp"
+          },
+          {
+            "element": "Electro",
+            "name": "Ineffa",
+            "weapon": "Haste",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/electro/ineffa.webp"
           },
           
     
@@ -569,35 +583,35 @@
             "element": "Cryo",
             "name": "Diona",
             "weapon": "Arc",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/cryo/diona.webp"
           },
           {
             "element": "Cryo",
             "name": "Eula",
             "weapon": "Claymore",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/cryo/eula.webp"
           },
           {
             "element": "Cryo",
             "name": "Kaeya",
             "weapon": "Epee",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/cryo/kaeya.webp"
           },
           {
             "element": "Cryo",
             "name": "Mika",
             "weapon": "Haste",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/cryo/mika.webp"
           },
           {
             "element": "Cryo",
             "name": "Rosaria",
             "weapon": "Haste",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/cryo/rosaria.webp"
           },
           {
@@ -677,6 +691,13 @@
             "zone": "Natlan",
             "picture": "./img/charact/cryo/citlali.webp"
           },
+          {
+            "element": "Cryo",
+            "name": "Skirk",
+            "weapon": "Épée",
+            "zone": "Abysses",
+            "picture": "./img/charact/cryo/skirk.webp"
+          },
     
     
     
@@ -693,14 +714,14 @@
             "element": "Geo",
             "name": "Albedo",
             "weapon": "Epee",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/geo/albedo.webp"
           },
           {
             "element": "Geo",
             "name": "Noelle",
             "weapon": "Claymore",
-            "zone": "Monstadt",
+            "zone": "Mondstadt",
             "picture": "./img/charact/geo/noelle.webp"
           },
           {

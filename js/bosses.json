@@ -3,27 +3,33 @@
         
       {
         "name": "Hypostase Anemo",
-        "zone": "Monstadt",
+        "zone": "Mondstadt",
         "picture": "./img/boss/monstadt/anemo_hypostasis.webp",
         "dungeon": "No"
       },
       {
         "name": "Hypostase Cryo",
-        "zone": "Monstadt",
+        "zone": "Mondstadt",
         "picture": "./img/boss/monstadt/cryo_hypostasis.webp",
         "dungeon": "No"
       },
       {
         "name": "Arbre Congelé",
-        "zone": "Monstadt",
+        "zone": "Mondstadt",
         "picture": "./img/boss/monstadt/cryo_regisvine.webp",
         "dungeon": "No"
       },
       {
         "name": "Loup du Nord",
-        "zone": "Monstadt",
+        "zone": "Mondstadt",
         "picture": "./img/boss/monstadt/lupus.webp",
         "dungeon": "No"
+      },
+      {
+        "name": "Jeu d'échecs devant la porte",
+        "zone": "Mondstadt",
+        "picture": "./img/boss/monstadt/jeu_dechec.webp",
+        "dungeon": "Yes"
       },
     
     
