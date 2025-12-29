@@ -14,6 +14,12 @@
         "dungeon": "No"
       },
       {
+        "name": "Hypostase Electro",
+        "zone": "Mondstadt",
+        "picture": "./img/boss/monstadt/electro_hypostasis.webp",
+        "dungeon": "No"
+      },
+      {
         "name": "Arbre Congelé",
         "zone": "Mondstadt",
         "picture": "./img/boss/monstadt/cryo_regisvine.webp",
@@ -317,6 +323,36 @@
         "name": "Statue de dragon de lave",
         "zone": "Natlan",
         "picture": "./img/boss/natlan/statue.webp",
+        "dungeon": "No"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Canard à torgnoles",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/canard.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Lunillon radieux",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/lunillon.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Hera de la nuit glaciale",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/hera.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Croiseur terrestre super-lourd : Forteresse mécanisée",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/croiseur.webp",
         "dungeon": "No"
       }
       

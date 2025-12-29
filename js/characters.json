@@ -31,6 +31,13 @@
           },
           {
             "element": "Pyro",
+            "name": "Durin",
+            "weapon": "Epee",
+            "zone": "Mondstadt",
+            "picture": "./img/charact/pyro/durin.webp"
+          },
+          {
+            "element": "Pyro",
             "name": "Klee",
             "weapon": "Catalyseur",
             "zone": "Mondstadt",
@@ -231,6 +238,13 @@
             "zone": "Natlan",
             "picture": "./img/charact/hydro/mualani.webp"
           },
+          {
+            "element": "Hydro",
+            "name": "Aino",
+            "weapon": "Claymore",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/hydro/aino.webp"
+          },
     
     
     
@@ -348,6 +362,13 @@
             "weapon": "Catalyseur",
             "zone": "Natlan",
             "picture": "./img/charact/anemo/ifa.webp"
+          },
+          {
+            "element": "Anemo",
+            "name": "Jahoda",
+            "weapon": "Arc",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/anemo/jahoda.webp"
           },
 
 
@@ -483,6 +504,13 @@
             "zone": "Nod-krai",
             "picture": "./img/charact/electro/ineffa.webp"
           },
+          {
+            "element": "Electro",
+            "name": "Flins",
+            "weapon": "Haste",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/electro/flins.webp"
+          },
           
     
     
@@ -565,6 +593,20 @@
             "weapon": "Epee",
             "zone": "Natlan",
             "picture": "./img/charact/dendro/Kinich.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Lauma",
+            "weapon": "Catalyseur",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/dendro/Lauma.webp"
+          },
+          {
+            "element": "Dendro",
+            "name": "Nefer",
+            "weapon": "Catalyseur",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/dendro/Nefer.webp"
           },
     
     
