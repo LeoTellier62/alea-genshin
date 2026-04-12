@@ -245,7 +245,13 @@
             "zone": "Nod-krai",
             "picture": "./img/charact/hydro/aino.webp"
           },
-    
+          {
+            "element": "Hydro",
+            "name": "Columbina",
+            "weapon": "Catalyseur",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/hydro/columbina.webp"
+          },
     
     
     
@@ -271,6 +277,13 @@
             "weapon": "Catalyseur",
             "zone": "Mondstadt",
             "picture": "./img/charact/anemo/sucrose.webp"
+          },
+          {
+            "element": "Anemo",
+            "name": "Varka",
+            "weapon": "Claymore",
+            "zone": "Mondstadt",
+            "picture": "./img/charact/anemo/varka.webp"
           },
           {
             "element": "Anemo",
@@ -782,6 +795,13 @@
           },
           {
             "element": "Geo",
+            "name": "Zibai",
+            "weapon": "Epee",
+            "zone": "Liyue",
+            "picture": "./img/charact/geo/zibai.webp"
+          },
+          {
+            "element": "Geo",
             "name": "Zhongli",
             "weapon": "Haste",
             "zone": "Liyue",
@@ -828,6 +848,20 @@
             "weapon": "Epee",
             "zone": "Natlan",
             "picture": "./img/charact/geo/xilonen.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Illuga",
+            "weapon": "Haste",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/geo/illuga.webp"
+          },
+          {
+            "element": "Geo",
+            "name": "Linnea",
+            "weapon": "Arc",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/geo/linnea.webp"
           }
         ]
       }
