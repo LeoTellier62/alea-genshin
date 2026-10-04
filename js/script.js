@@ -73,7 +73,7 @@ async function loadData() {
         });
 
         //afficherData(charac1,img1P);
-        //afficherDataBoss(bosses);
+        afficherDataBoss(bosses);
     
     } catch (error) {
         console.error("Erreur lors du chargement des personnages :", error);

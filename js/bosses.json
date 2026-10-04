@@ -37,7 +37,12 @@
         "picture": "./img/boss/monstadt/jeu_dechec.webp",
         "dungeon": "Yes"
       },
-    
+      {
+        "name": "Veilleur : Veille déchue",
+        "zone": "Mondstadt",
+        "picture": "./img/boss/monstadt/veilleur.webp",
+        "dungeon": "No"
+      },
     
     
     
@@ -211,6 +216,12 @@
         "picture": "./img/boss/sumeru/wenut.webp",
         "dungeon": "No"
       },
+      {
+        "name": "Dottore 2",
+        "zone": "Sumeru",
+        "picture": "./img/boss/sumeru/dottore.webp",
+        "dungeon": "No"
+      },
     
     
     
@@ -353,6 +364,48 @@
         "name": "Croiseur terrestre super-lourd : Forteresse mécanisée",
         "zone": "Nod-krai",
         "picture": "./img/boss/nodkrai/croiseur.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Seigneur chuchoteur de cauchemars des fonds cachés",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/seigneur.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Lumigecko radieux",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/lumigecko.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Dottore",
+        "zone": "Nod-krai",
+        "picture": "./img/boss/nodkrai/dottore.webp",
+        "dungeon": "yes"
+      },
+    
+    
+    
+    
+    
+
+      {
+        "name": "Lion ailé chimérique",
+        "zone": "Snezhnaya",
+        "picture": "./img/boss/snezhnaya/lion.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Structure immortelle",
+        "zone": "Snezhnaya",
+        "picture": "./img/boss/snezhnaya/structure.webp",
+        "dungeon": "No"
+      },
+      {
+        "name": "Lame garidnne de la neige flottante",
+        "zone": "Snezhnaya",
+        "picture": "./img/boss/snezhnaya/lame.webp",
         "dungeon": "No"
       }
       

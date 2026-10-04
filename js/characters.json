@@ -127,6 +127,13 @@
             "zone": "Natlan",
             "picture": "./img/charact/pyro/mavuika.webp"
           },
+          {
+            "element": "Pyro",
+            "name": "Nicole",
+            "weapon": "Catalyseur",
+            "zone": "Nod-krai",
+            "picture": "./img/charact/pyro/nicole.webp"
+          },
     
     
     
@@ -252,7 +259,13 @@
             "zone": "Nod-krai",
             "picture": "./img/charact/hydro/columbina.webp"
           },
-    
+          {
+            "element": "Hydro",
+            "name": "Vodyanitsa",
+            "weapon": "Catalyseur",
+            "zone": "Snezhnaya",
+            "picture": "./img/charact/hydro/vodyanitsa.webp"
+          },
     
     
     
@@ -270,6 +283,13 @@
             "weapon": "Epee",
             "zone": "Mondstadt",
             "picture": "./img/charact/anemo/jean.webp"
+          },
+          {
+            "element": "Anemo",
+            "name": "Prune",
+            "weapon": "Catalyseur",
+            "zone": "Mondstadt",
+            "picture": "./img/charact/anemo/prune.webp"
           },
           {
             "element": "Anemo",
@@ -383,7 +403,13 @@
             "zone": "Nod-krai",
             "picture": "./img/charact/anemo/jahoda.webp"
           },
-
+          {
+            "element": "Anemo",
+            "name": "Vesna",
+            "weapon": "Epee",
+            "zone": "Snezhnaya",
+            "picture": "./img/charact/anemo/vesna.webp"
+          },
 
 
     
@@ -524,7 +550,13 @@
             "zone": "Nod-krai",
             "picture": "./img/charact/electro/flins.webp"
           },
-          
+          {
+            "element": "Electro",
+            "name": "Alyosha",
+            "weapon": "Haste",
+            "zone": "Snezhnaya",
+            "picture": "./img/charact/electro/alyosha.webp"
+          },
     
     
     
@@ -626,7 +658,13 @@
     
     
     
-
+          {
+            "element": "Cryo",
+            "name": "Voyageur/se (Cryo)",
+            "weapon": "Épée",
+            "zone": "Autre",
+            "picture": "./img/charact/other/traveler.webp"
+          },
           {
             "element": "Cryo",
             "name": "Aloy",
@@ -654,6 +692,13 @@
             "weapon": "Epee",
             "zone": "Mondstadt",
             "picture": "./img/charact/cryo/kaeya.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Lohen",
+            "weapon": "Haste",
+            "zone": "Mondstadt",
+            "picture": "./img/charact/cryo/lohen.webp"
           },
           {
             "element": "Cryo",
@@ -753,6 +798,21 @@
             "zone": "Abysses",
             "picture": "./img/charact/cryo/skirk.webp"
           },
+          {
+            "element": "Cryo",
+            "name": "Odette",
+            "weapon": "Épée",
+            "zone": "Snezhnaya",
+            "picture": "./img/charact/cryo/odette.webp"
+          },
+          {
+            "element": "Cryo",
+            "name": "Sandrone",
+            "weapon": "Catalyseur",
+            "zone": "Snezhnaya",
+            "picture": "./img/charact/cryo/sandrone.webp"
+          },
+          
     
     
     
